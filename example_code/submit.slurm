@@ -7,7 +7,7 @@
 #load environment modules that correspond to the build environment
 #and puts VTune in path
 
-module load intel intel-vtune intel-advisor
+module load intel intel-vtune 
 
 #run command line VTune, with the hotspots analysis on the executable mm.out for a
 # 500x500 matrix 
