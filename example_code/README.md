@@ -22,3 +22,11 @@ This will, by default, run a 500x500 matrix example on a compute node using the 
 e.g. amplxe-gui r000hs
 6. Explore "Bottom-up" and "Top-down Tree" and double click on hotspots to look at line-by-line performance
 Edit the file "submit.slurm" to increase the matrix size (originally 500) and rerun the analysis. WARNING: don't go over 1500!
+*7. module load intel-advisor
+*8. In ./submit.slurm, change the job execution command to advisor command line with survey analysis
+*9. Run ./submit_to_scheduler 
+*10. Open the resulting directory with Advisor
+e.g., advixe-gui <RESULT_DIR>
+*11. Explore "Survey" report
+
+
