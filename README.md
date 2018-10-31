@@ -31,6 +31,12 @@ e.g. `load intel-advisor`
 10. Open the resulting directory with Advisor
 e.g., `advixe-gui <RESULT_DIR>`
 11. Explore "Survey" report 
+12. Run the script to submit a Advisor wrapped job to the schedule with tripcounts analysis
+1) In ./submit.slurm, change the job execution command to advisor command line with tripcounts analysis
+2) Run `./submit_to_scheduler`
+13. Open the resulting directory with Advisor
+e.g., `advixe-gui <RESULT_DIR>`
+14. Explore "Tripcounts & Roofline" report 
   
 <br><br><br>
 
