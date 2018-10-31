@@ -27,9 +27,9 @@ This is intended to use as a example to profile with performance tuning tools su
 'module load intel-advisor'
 9. Run the script to submit a Advisor wrapped job to the schedule 
 1)In ./submit.slurm, change the job execution command to advisor command line with survey analysis
-2)Run ./submit_to_scheduler
+2)Run './submit_to_scheduler'
 10. Open the resulting directory with Advisor
-e.g., advixe-gui <RESULT_DIR>
+e.g., 'advixe-gui <RESULT_DIR>'
 11. Explore "Survey" report 
   
 <br><br><br>
