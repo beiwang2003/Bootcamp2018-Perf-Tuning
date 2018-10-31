@@ -24,7 +24,7 @@ This is intended to use as a example to profile with performance tuning tools su
 6. Explore "Bottom-up" and "Top-down Tree" and double click on hotspots to look at line-by-line performance
 7. Edit the file "submit.slurm" to increase the matrix size (originally 500) and rerun the analysis. WARNING: don't go over 1500!
 8. Load environment module for Advisor
-e.g. `load intel-advisor`
+e.g. `module load intel-advisor`
 9. Run the script to submit a Advisor wrapped job to the schedule 
 1)In ./submit.slurm, change the job execution command to advisor command line with survey analysis
 2)Run `./submit_to_scheduler`
