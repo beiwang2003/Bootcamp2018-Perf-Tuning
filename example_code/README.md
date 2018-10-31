@@ -24,11 +24,17 @@ e.g. amplxe-gui r000hs
 Edit the file "submit.slurm" to increase the matrix size (originally 500) and rerun the analysis. WARNING: don't go over 1500!
 7. Load environment module for Advisor
 e.g. `load intel-advisor`
-8. Run the script to submit a Advisor wrapped job to the schedule 
+8. Run the script to submit a Advisor wrapped job to the schedule with survey analysis
 1) In ./submit.slurm, change the job execution command to advisor command line with survey analysis
 2) Run `./submit_to_scheduler`
 9. Open the resulting directory with Advisor
 e.g., `advixe-gui <RESULT_DIR>`
 10. Explore "Survey" report 
+11. Run the script to submit a Advisor wrapped job to the schedule with tripcounts analysis
+1) In ./submit.slurm, change the job execution command to advisor command line with tripcounts analysis
+2) Run `./submit_to_scheduler`
+12. Open the resulting directory with Advisor
+e.g., `advixe-gui <RESULT_DIR>`
+13. Explore "Tripcounts & Roofline" report 
 
 
