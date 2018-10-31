@@ -23,12 +23,14 @@ This is intended to use as a example to profile with performance tuning tools su
   e.g. `amplxe-gui r000hs`
 6. Explore "Bottom-up" and "Top-down Tree" and double click on hotspots to look at line-by-line performance
 7. Edit the file "submit.slurm" to increase the matrix size (originally 500) and rerun the analysis. WARNING: don't go over 1500!
-*8. module load intel-advisor
-*9. In ./submit.slurm, change the job execution command to advisor command line with survey analysis
-*10. Run ./submit_to_scheduler
-*11. Open the resulting directory with Advisor
+8. Load environment module for Advisor
+'module load intel-advisor'
+9. Run the script to submit a Advisor wrapped job to the schedule 
+1)In ./submit.slurm, change the job execution command to advisor command line with survey analysis
+2)Run ./submit_to_scheduler
+10. Open the resulting directory with Advisor
 e.g., advixe-gui <RESULT_DIR>
-*12. Explore "Survey" report 
+11. Explore "Survey" report 
   
 <br><br><br>
 
