@@ -18,5 +18,11 @@ amplxe-cl -collect hotspots -- ./mm.out 500
 
 #advixe-cl -c survey -project-dir mm_advisor -- ./mm.out 500
 
+#run command line Advisor, with Tripcounts analysis
+
+#advixe-cl -c tripcounts -flop -project-dir mm_advisor -- ./mm.out 500
+
+
+
 
 
